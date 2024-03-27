@@ -1,0 +1,53 @@
+body{
+    background-color: sienna;
+    /* background-image: url(https://c8.alamy.com/comp/B5A3T5/logo-of-rolls-royce-B5A3T5.jpg);
+     background-size: cover;
+     background-repeat: no-repeat; */
+     background-color: gold;
+    color: black;
+    border-style: double;
+    border-width: thick;
+    border-color: limegreen; 
+    border-top-color: beige;
+    border-bottom-color: black;
+}
+h1{
+    color: blue;
+    font-size: larger;
+    font-style: italic;
+    text-decoration: double;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: darkblue;
+}
+p{
+    color: darkblue;
+    font-size: larger;
+    font-style: inherit;
+    text-align: center;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: chocolate;
+    border-left-color:red ;
+    border-right-color: brown;
+}
+h2{
+    color:darkorchid;
+    font-size: larger;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+li{
+    border-style: outset;
+    border-width: thick;
+    border-color: aqua;
+    border-top-color: crimson;
+    border-bottom-color:green ;
+}
+h3{
+    color: darkolivegreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+

@@ -1,0 +1,130 @@
+header{
+    padding:0;
+    border:0;
+}
+body{
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    box-shadow: 2px 2px 2px 1px rgba();
+}
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header h2 span{
+    color: #FFA500;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.homepage{
+    background-image: url(https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710633600&semt=ais);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    color: white;
+    gap: 20px;
+    padding-left: 24px;
+}
+.homepage h1{
+    font-size: 48px;
+}
+.homepage p{
+    font-size: x-large;    
+}
+.homebuttons{
+    gap: 24px;
+    display: flex;
+}
+.homebuttons .order-1{
+    border:none;
+    color: white;
+    background-color: #FFA500;
+    padding: 10px;
+}
+.hello{ 
+    color: orange;
+}
+.homebuttons .order-2{
+    border: thin;
+    border-color: #FFA500;
+    background-color: black;
+    color: #FFA500;
+    padding: 10px;
+}
+#aboutpage{
+    display: flex;
+    padding: 25px;
+    gap: 25px;
+}
+.About{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+button{
+    color: white;
+    background-color: #FFA500;
+    border-style: none;
+    padding: 10px;
+}
+.service>.serve-cont{
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 30px;  
+}
+.card-content1{
+    background-color: gainsboro;
+    list-style: none;
+    text-decoration: none ;
+    height: 14rem;
+    width: 15rem
+}
+.card-content1:hover{background-color: #FFA500;
+    color: white;
+}
+.card-content2{
+    background-color:gainsboro; 
+    height: 15rem;
+    width: 15rem
+}
+.card-content2:hover{
+    background-color: #FFA500;
+    color: white;
+}
+.card-content3{
+    background-color: gainsboro;
+    height: 14rem;
+    width: 15rem
+}
+.card-content3:hover{
+    background-color: #FFA500;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+i{
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+}
